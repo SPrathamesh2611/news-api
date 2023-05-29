@@ -2,7 +2,7 @@
 from newsapi import NewsApiClient
 
 # Init
-newsapi = NewsApiClient(api_key='ce9e82b94bf34a399d15d54469687ee8')
+newsapi = NewsApiClient(api_key='YOUR-API-KEY')
 
 # /v2/top-headlines
 top_headlines = newsapi.get_top_headlines(q='INDIA',
